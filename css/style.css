@@ -8,7 +8,8 @@
 @import url(fonts.googleapis.com/css?family=Raleway:400,300,700);
 
 body {
-	font: 300 15px/1.6 'Raleway', serif, sans-serif;
+	/* font: 400 15px/1.6 'Raleway', serif, sans-serif; */
+	font: 400 15px/1.6 'Arial', serif, sans-serif;
 	color: #545454;
 }
 
