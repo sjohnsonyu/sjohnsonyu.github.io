@@ -8,9 +8,23 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 /* @import url(https://fonts.googleapis.com/css?family=Raleway); */
 /* @import url(http://fonts.googleapis.com/css?family=Lato:400,700); */
-@import url(http://fonts.googleapis.com/css?family=Lato);
+/* @import url(http://fonts.googleapis.com/css?family=Lato); */
+@import url(http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext);
 
 
+@font-face {
+	font-family: "Lato";
+	src: url('fonts/Lato/Lato-Black.ttf');
+	src: url('fonts/Lato/Lato-BlackItalic.ttf') format('Lato-BlackItalic'),
+		 url('fonts/Lato/Lato-Bold.ttf') format('Lato-Bold'),
+		 url('fonts/Lato/Lato-BoldItalic.ttf') format('Lato-BoldItalic'),
+		 url('fonts/Lato/Lato-Italic.ttf') format('Lato-Italic'),
+		 url('fonts/Lato/Lato-Light.ttf') format('Lato-Light'),
+		 url('fonts/Lato/Lato-LightItalic.ttf') format('Lato-LightItalic'),
+		 url('fonts/Lato/Lato-Regular.ttf') format('Lato-Regular'),
+		 url('fonts/Lato/Lato-Thin.ttf') format('Lato-Thin'),
+		 url('fonts/Lato/Lato-ThinItalic.ttf') format('Lato-ThinItalic');
+  }
 
 body {
 	font: 700 18px/1.6 'Raleway', serif, sans-serif;
@@ -255,7 +269,7 @@ a,
 }
 
 .paper-well {
-    min-height: 160px;
+    min-height: 170px;
 }
 
 .pull-left {
@@ -278,3 +292,5 @@ a,
     -o-transition: border .2s ease-in-out;
     transition: border .2s ease-in-out;
 }
+
+
