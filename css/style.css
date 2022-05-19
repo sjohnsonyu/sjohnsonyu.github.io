@@ -6,10 +6,15 @@
 
 @import url(fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Raleway);
+/* @import url(https://fonts.googleapis.com/css?family=Raleway); */
+/* @import url(http://fonts.googleapis.com/css?family=Lato:400,700); */
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
 
 
 body {
-	font: 700 15px/1.6 'Raleway', serif, sans-serif;
+	font: 700 18px/1.6 'Raleway', serif, sans-serif;
+	/* font: 700 15px/1.6 'Raleway', serif, sans-serif; */
 	color: #545454;
 }
 
@@ -29,7 +34,7 @@ a:hover {
 /* Typography */
 
 h1, h2, h3, h4, h5, h6 {
-	font: 400 46px/1.2 'Montserrat', serif, sans-serif;
+	font: 700 46px/1.2 'Lato', serif, sans-serif;
 	margin: 5px 0 5px;
 	color: #222;
 	text-transform: uppercase;
@@ -38,7 +43,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
 	font-size: 60px;
 	font-weight: 700;
-	margin: 5px 0 15px;
+	margin: 5px 0 5px;
 	color: #333;
 	opacity: 90%;
 }
@@ -88,7 +93,7 @@ a,
 
 .section {
 	position: relative;
-	padding: 120px 0;
+	padding: 50px 0;
 }
 
 /* Navbar */
@@ -111,7 +116,7 @@ a,
 }
 
 .navbar-custom .navbar-brand {
-	font: 700 18px/1.2 'Montserrat', serif, sans-serif;
+	font: 700 18px/1.2 'Lato', serif, sans-serif;
 	color: #FFF;
 }
 
@@ -126,7 +131,7 @@ a,
 .navbar-custom .navbar-nav > li > a,
 .navbar-custom .navbar-nav .dropdown-menu > li > a {
 	color: #FFF;
-	font-size: 12px;
+	font-size: 16px;
 }
 
 .navbar-color,
@@ -217,3 +222,59 @@ a,
 	margin-top: 30px;
 }
 
+.profile-pic {
+	border-radius: 50%;
+	border-collapse: separate;
+	max-width: 50%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+}
+
+.center {
+	text-align: center;
+}
+
+.contact-bar {
+	vertical-align: middle;
+}
+
+.well {
+    min-height: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    border-radius: 6px;
+    -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 5%);
+	box-shadow: inset 0 1px 1px rgb(0 0 0 / 5%);
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 95%;
+}
+
+.paper-well {
+    min-height: 160px;
+}
+
+.pull-left {
+    float: left!important;
+}
+
+.paper_summary {
+	vertical-align: middle;
+}
+
+.thumbnail {
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+}

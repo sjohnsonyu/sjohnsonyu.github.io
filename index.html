@@ -1,12 +1,10 @@
 <<!DOCTYPE html>
 <html lang="en">
 <head>
-	<!-- Looks like you're interested in my code! Wanna talk? Hit me up at sjohnsonyu %at% g.harvard.edu! -->
-	<!-- I am not a front-end programmer, so this code is not representative of my general capabilities ':) -->
 	<meta charset="UTF-8">
 	<title>Sonja Johnson-Yu</title>
 	<meta name="description" content="Porfolio website for Sonja Johnson-Yu">
-	<meta name="keywords" content="Sonja, Johnson, Yu, Johnson-Yu, Stanford, Developer, Music">
+	<meta name="keywords" content="Sonja, Johnson, Yu, Johnson-Yu, Stanford, Developer, Music, JohnsonYu, Harvard, Joro">
 	<meta name="author" content="Sonja Johnson-Yu">
 
 	<!-- Viewport - mobile optimization -->
@@ -19,11 +17,9 @@
 
 	<!-- Favicon -->
 	<link rel="shortcut icon" class="image" href="./img/Favicon.png" />
-
 </head>
 <body>
 	<div class="wrapper">
-
 		<!-- Preloader, shows site is loading -->
 		<div id="preloader" style="display: none;">
 			<div id="status" style="display: none;">
@@ -37,55 +33,149 @@
 		<nav class="navbar navbar-custom navbar-fixed-top navbar-color" role="navigation">
 		<div class="container-fluid">
 			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> 
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 					<span class="sr-only">Toggle navigation</span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-			<a class="navbar-brand" href="./">Sonja Johnson-Yu</a>
+			<a class="navbar-brand" href="./index.html">Sonja Johnson-Yu</a>
 			</div>
 
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav navbar-right">
-					<li class=""><a href="./about.html">About</a></li>
-					<li class=""><a href="./projects.html">Code</a></li>
-					<li class=""><a href="./music.html">Music</a></li>
-					<li class=""><a href="./blog.html">Blog</a></li>
-					<li class=""><a href="./photography.html">Photography</a></li>
-					<li class=""><a href="https://www.linkedin.com/in/sonja-johnson-yu-a6100bb1">LinkedIn</a></li>
-					<li class=""><a href="./contact.html">Contact</a></li>
-				</ul>		
+					<li class=""><a href="./publications.html">Publications</a></li>
+					<li class=""><a href="./real-world.html">Real-World</a></li>
+					<li class=""><a href="./teaching.html">Teaching</a></li>
+                </ul>		
 			</div>
 		</div>
 		</nav>
 
-		<!-- Hero Area -->
-		<div class="hero-area">
-			<img src="./img/portrait.jpg" alt="A picture of Sonja laughing in a grassy glen.">
-			
-		<!-- Name Banner -->
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-12"><h1>Sonja Johnson-Yu</h1></div>
-			</div>
-		</div>
-
-		<!-- Contact Section -->
-		<section id="contact" class="section">
+		<!-- About Section -->
+		<section id="about" class="section">
 			<div class="container">
 				<div class="row">
+					<div class="col-md-12 center">
+                        <h1>Sonja Johnson-Yu</h1>
+                        <br>
+                    </div>
+                </div>
+                <div class="row">
+					<div class="col-md-6">
+                        <div class="profile-pic">
+                            <img src="./img/sonja_square.jpg" class="img-responsive" alt="Sonja smiling in a grassy glen">
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="contact-bar">
+                        <div class="col-md-6">
+                            <p>CS PhD Candidate at Harvard</p>
+                        </div>
+                        <div class="col-md-6">
+                            <p>sjohnsonyu@g.[myschool].edu</p></a>
+                        </div>
+                        <div class="col-md-6">
+                            <a href="https://scholar.google.com/citations?hl=en&user=M9_9EfYAAAAJ" target="_blank">
+                                <p>Google Scholar</p>
+                            </a>
+                        </div>
+                        <div class="col-md-6">
+                            <a href="https://www.linkedin.com/in/sonja-johnson-yu" target="_blank">
+                                <p>LinkedIn</p>
+                            </a>
+                        </div>
+                        <div class="col-md-6">
+                            <a href="./cv/resume_2022.04.19" target="_blank">
+                                <p>Curriculum Vitae</p>
+                            </a>
+                        </div>
+                    </div>
+				</div>
+			<div class="row">
+				<div class="row">
 					<div class="col-md-12">
-						<h3>Contact Me</h3>
-						<p>You're welcome to send me an email - I would love to hear from you!</p>
-						<a href="mailto:sjohnsonyu@g.harvard.edu">sjohnsonyu {at} g.harvard.edu</a>
+                        <br>
+						<h3>About</h3>
+						<p><b>Hello! I'm a first-year computer science PhD candidate at Harvard, advised by 
+							<a href="https://teamcore.seas.harvard.edu/tambe">Milind Tambe</a>.</b> I recently
+                             wrapped up my master's in computer science at Stanford, where I applied
+                             computer vision and natural language processing to solve problems in sustainability
+                             and education. My undergrad was a double major in CS and music (concentration in 
+                             conducting), also at Stanford. During my PhD, I aim to combine my interests in 
+                             decision-making under uncertainty and adversarial robustness with my passion for
+                             positive social impact.
+                            
+                            
+                            </p>
+						<!-- <p>I love working on hard problems that have positive social impact. During my master's, 
+							I was a part of the <a href="https://stanfordmlgroup.github.io/">Stanford ML Group</a>
+							 (headed by Andrew Ng), working on a 
+							 <a href="https://stanfordmlgroup.github.io/projects/forestnet/">project</a> about 
+							 predicting direct drivers of deforestation in Indonesia. I've also conducted research
+							  in computational education (<a href="https://compedu.stanford.edu/">CompEdu Lab</a>), 
+							  proposing ways to improve human grading.</p> -->
+                        
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+					<div class="col-md-12">
+						<h3>Recent Papers</h3>
+                    </div>
+                </div>
+                <!-- <br> -->
+                <div class="row">
+                    <div class="well paper-well">
+                        <div class="col-md-2">
+                            <img src="https://stanfordmlgroup.github.io/projects/forestnet/img/fig0.gif" class="img-responsive" style="height: 120px;">
+                        </div>
+                    
+                        <div class="col-md-10 paper-summary">
+                            <b>ForestNet: Classifying Drivers of Deforestation in Indonesia using Deep Learning on Satellite Imagery.</b>
+                            <br>
+                            J. Irvin, H. Sheng, N. Ramachandran, S. Johnson-Yu, S. Zhou, K. Story, R. Rustowicz, C. Elsworth, K. Austin, & A. Ng. 
+                            <br>
+                            <i>NeurIPS 2020 Workshop on Tackling Climate Change with Machine Learning.</i>
+                            [<a href="https://stanfordmlgroup.github.io/projects/forestnet/" target="_blank">blog post</a>]
+                            [<a href="https://arxiv.org/abs/2011.05479" target="_blank">preprint</a>]
+                        </div>
+                    </div>
+                </div><div class="row">
+                    <div class="well paper-well">
+                        <div class="col-md-2">
+                            <img src="./img/simgrade_snake_algo.png" class="img-responsive" style="height: 120px;">
+                        </div>
+                    
+                        <div class="col-md-10 paper-summary">
+                            SimGrade: Using Code Similarity Measures for More Accurate Human Grading.
+                            <br>
+                            S. Johnson-Yu, N. Bowman, M. Sahami & C. Piech
+                            <br>
+                            <i>Educational Data Mining 2021</i>
+                            [<a href="https://educationaldatamining.org/EDM2021/virtual/poster_paper96.html" target="_blank">poster</a>]
+                            [<a href="https://educationaldatamining.org/EDM2021/virtual/static/pdf/EDM21_paper_96.pdf" target="_blank">preprint</a>]
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+					<div class="col-md-12">
+						<h3>Collaborations & Real-World Projects</h3>
+
+                        <p>I'm currently working on
+                            <a href="https://teamcore.seas.harvard.edu/paws-protection-assistant-wildlife-security"> PAWS (Protection Assistant for Wildlife Security)</a>,
+                            which is a predictive patrolling model that helps rangers to understand areas in global parks that are at high
+                            risk for poaching.
+                        </p>
+ 
 					</div>
 				</div>
 			</div>
 		</section>
 	</div>
-
-	<!-- Javascript -->
+		<!-- Javascript -->
 	<script src="./js/jquery-1.11.0.min.js"></script>
 	<script src="./js/bootstrap.min.js"></script>
 </body>
