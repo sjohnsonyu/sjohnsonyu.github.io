@@ -7,15 +7,17 @@
 @import url(fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 /* @import url(https://fonts.googleapis.com/css?family=Raleway); */
-/* @import url(http://fonts.googleapis.com/css?family=Lato:400,700); */
-/* @import url(http://fonts.googleapis.com/css?family=Lato); */
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(http://fonts.googleapis.com/css?family=Lato);
 /* @import url(http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext); */
 /* @import url(https://use.typekit.net/czs6irp.css) */
 
 
   
 body {
-	font: 700 18px/1.6 'Raleway', serif, sans-serif;
+	/* font: 700 18px/1.6 'Raleway', serif, sans-serif; */
+	/* font: 700 18px/1.6 'Lato', serif, sans-serif; */
+	font: 500 18px/1.6 'Lato', serif, sans-serif;
 	/* font: 700 15px/1.6 'Raleway', serif, sans-serif; */
 	color: #545454;
 }
@@ -36,8 +38,8 @@ a:hover {
 /* Typography */
 
 h1, h2, h3, h4, h5, h6 {
-	font: 700 46px/1.2 'Raleway', serif, sans-serif;
-	/* font: 700 46px/1.2 'Lato', serif, sans-serif; */
+	/* font: 700 46px/1.2 'Raleway', serif, sans-serif; */
+	font: 700 46px/1.2 'Lato', serif, sans-serif;
 	margin: 5px 0 5px;
 	color: #222;
 	text-transform: uppercase;
@@ -118,9 +120,10 @@ a,
 	color: #33CC00;
 }
 
+
 .navbar-custom .navbar-brand {
-	font: 700 18px/1.2 'Raleway', serif, sans-serif;
-	/* font: 700 18px/1.2 'Lato', serif, sans-serif; */
+	/* font: 700 18px/1.2 'Raleway', serif, sans-serif; */
+	font: 700 18px/1.2 'Lato', serif, sans-serif;
 	color: #FFF;
 }
 
